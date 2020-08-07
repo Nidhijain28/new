@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AccumulationApp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <!--css link-->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+          <!--css link end-->
+
+</head>
+
+<body class="home payment">
+    <div class="container">
+        <div class="main_header">
+            <div class="logo"> <a href="index.html">AccumulationApp</a></div>
+        </div> 
+        
+        <div class="payment_sec">
+            <div class="tab" role="tabpanel">
+          
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="plan_tab active"><a class="plan_rel" href="#plan" aria-controls="home" role="tab" data-toggle="tab" rel="plan"><span class="round"></span><span class="plan_txt">Plan</span></a></li>
+                    <li role="presentation" class="account_tab"><a class="account_rel" href="#account" aria-controls="profile" role="tab" data-toggle="tab" rel="account"><span class="round"></span>Account</a></li>
+                    <li role="presentation" class="payment_tab"><a class="payment_rel" href="#payment" aria-controls="messages" role="tab" data-toggle="tab" rel="payment"><span class="round"></span>Payment</a></li>
+
+                </ul>
+
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="plan">
+                        <div class="plan_sec">
+                            <h2>Select a subscription plan</h2>
+                            <div class="plan_detail block_sec">
+                                <div class="block_cont yearly">
+                                    <img src="images/calendar.svg">
+                                    <p class="sub_time">1-year subscription</p>
+                                    <p class="sub_price"><sup>$</sup>129 <sub>/ year</sub></p>
+                                    <button class="btn plan_select pay_plan" rel="year_plan">Select plan</button>
+                                </div>
+                                <div class="block_cont plan_include web">
+                                    <img src="images/rocket.png">
+                                    <p class="sub_time">The subscriptions include:</p>
+                                    <p>- Trend based buy and sell signals</p>
+                                    <p>- Brower and email notifications</p>
+                                    <p>- Freebie 1 lorem ipsum - worth $299</p>
+                                    <p>- Freebie 2 lorem ipsum - worth $229</p>
+                                    <p>- Freebie 3 lorem ipsum - worth $129</p>
+                                </div>
+                                <div class="block_cont lifetime">
+                                    <img src="images/calendar2.svg">
+                                    <p class="sub_time">Lifetime subscription</p>
+                                    <p class="sub_price"><sup>$</sup>249</p>
+                                    <button class="btn plan_select pay_plan" rel="lifetime_plan">Select plan</button>
+                                </div>
+                                <div class="block_cont plan_include mob">
+                                    <img src="images/rocket.png">
+                                    <p class="sub_time">The subscriptions include:</p>
+                                    <p>- Trend based buy and sell signals</p>
+                                    <p>- Brower and email notifications</p>
+                                    <p>- Freebie 1 lorem ipsum - worth $299</p>
+                                    <p>- Freebie 2 lorem ipsum - worth $229</p>
+                                    <p>- Freebie 3 lorem ipsum - worth $129</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="account">
+                        <h2>Create an account</h2>
+                        <form class="signin_form accunt_form create_form" id="create_form">
+                            <div class="create_det">
+                            <label>Email</label>
+                            <input type="email" class="email form_control" >
+                            <label >password<span class="hide-show">show</span></label>
+                            <input type="password" class="form_control password"> 
+                            </div>
+                            <div class="create_btn">
+                                <button type="button" class="btn signin_btn pay_back back_btn"><img src="images/arrow_left.svg"> Back</button>
+                                <button type="button" class="btn signin_btn pay_next next_btn plan_select submit">continue</button>
+                          </div> 
+                          </form>
+                          
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="payment">
+                        <div class="payment_method">
+                        <h2>Select a payment method</h2>
+                        <form class="signin_form create_form payment_form" id="payment_form">
+                            <div class="create_det">
+                                <input type="radio" name="radio1" id="cre_card" value="cre_card">
+                                <label class="pay_opt" for="cre_card"><p class="pay_icon"><img src="images/card.svg"></p><p>Credit Card</p></label>
+                                <input type="radio" name="radio1" id="cry_curen" value="cry_curen" checked="">
+                                <label class="pay_opt" for="cry_curen"><p class="pay_icon"><img src="images/btc.svg"></p><p>Cryptocurrency</p></label>
+                            </div>
+                            <div class="create_btn">
+                                <button type="button" class="btn signin_btn account_back back_btn"><img src="images/arrow_left.svg"> Back</button>
+                                <button type="button" class="btn signin_btn method_next next_btn plan_select">continue</button>
+                          </div> 
+                          </form>
+                        </div>
+
+
+                        <div class="credit_method">
+                            <h2>Pay in credit card</h2>
+                        <form class="signin_form create_form credit_form" id="credit_form">
+                            <div class="order_sum">
+                                <p class="order_title">Your order summary</p>
+                                <div class="cre_info">
+                                <p class="order_dec">1-year subscription: <span>129 USD</span>
+                                </p>
+                                <span class="renew_info">Your subscription is billed yearly and will automatically renew for 129 USD on Aug 06, 2020. You can cancel any time before this date.</span>
+                                </div>
+
+                            </div>
+                            <div class="create_det">
+                                <label>Card number</label>
+                                <input type="text" maxlength="20" class="form_control" >
+                                <p class="expiry_date">
+                                <label>Expiry date</label>
+                                <input type="text" class="form_control" placeholder="MM / YY">
+                                </p>
+                                <p class="cvc">
+                                    <label>CVC</label>
+                                    <input type="password" maxlength="4" class="form_control">
+                                </p>
+                                <label>Name on card</label>
+                                <input type="text" class="form_control"> 
+
+                            </div>
+                            <div class="create_btn">
+                                <button type="button" class="btn signin_btn method_back back_btn"><img src="images/arrow_left.svg"> Back</button>
+                                <a href="portfolio.html"><button type="button" class="btn signin_btn next_btn plan_select">pay <span class="pay_ammount">129</span> USD</button></a>
+                          </div> 
+                          <p class="terms">By subscribing I agree to the Terms of Service.</p>
+                          </form>
+                        </div>
+
+                        <div class="crepto_method">
+                            
+                        <form class="signin_form create_form crepto_form" id="crepto_form">
+                            <h2>Pay in cryptocurrency</h2>
+                            <p class="crepto_txt">The payment is handled by Crypto Payments. Please pay the exact amount. If you have already completed the payment, please check the <span><a href="payment.html">details here</a></span>.</p>
+
+                            <div class="order_sum">
+                                <p class="order_title">Your order summary</p>
+                                <p class="order_dec">1-year subscription: <span>129 USD</span></p>
+                            </div>
+                            <div class="create_det">
+                                <label>Select currency</label>
+                                <span class="option_select">
+                                <select class="form_control">
+                                  <option value="btc">BTC</option>
+                                  <option value="nano">NANO</option>
+                                  <option value="eth">ETH</option>
+                                </select>
+                                </span>
+                                <label class="rm_mg">Amount</label>
+                                <p>0.01112133 BTC <img src="images/address.svg"><br><span><span class="pay_ammount">129.2</span> USD</span></p>
+                                <label class="rm_mg">Bitcoin address</label>
+                                <p>1L4tdCpuURTg1fA2e1rRUaCxm2vKPBE4mh <img src="images/address.svg"></p>
+                                <p class="qr_code"><img src="images/qr_code.png"></p>
+                            </div>
+                            <div class="create_btn">
+                                <button type="button" class="btn signin_btn method_back back_btn"><img src="images/arrow_left.svg"> Back</button>
+                                <a href="portfolio.html"><button type="button" class="btn signin_btn next_btn plan_select">I have sent the amount</button></a>
+                          </div> 
+                          <p class="terms">By subscribing I agree to the Terms of Service.</p>
+                          </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+        <!--script-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+        <!--end-->
+</body>
+</html>

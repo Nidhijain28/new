@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AccumulationApp</title>
+        <!--meta  link-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!--meta  link css-->
+        <!--css link-->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+          <!--css link end-->
+    </head>
+
+    <body class="home">
+        <div class="container">
+            <div class="header_top_sec">
+                <div class="main_header">
+                    <div class="logo"><a href="index.html">AccumulationApp</a></div>
+                    <div class="signin">
+                        <button class="btn signin_btn" data-toggle="modal" data-target="#Modal">sign in</button>
+                        <a href="payment.html"><button class="btn signup_btn plan_select">get Started</button></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="baner_sec">
+                            <div class="head_title">
+                                <h1>
+                                    Trend <span>Signals</span> &<br />
+                                    <span>Portfolio</span> Management
+                                </h1>
+                            </div>
+                            <p>Grow your cryptocurrency portfolio with straightforward investment strategies.</p>
+                            <a href="payment.html">
+                                <button class="btn signup_btn plan_select">Get started now <img class="arrow_btn" src="images/arrow_btn.svg" alt="" /><img class="arrow_btn btn_hover" src="images/arrow_btn_hover.svg" alt="" /></button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="head_img">
+                            <figure class="swing">
+                            <img src="images/protfolio_head.svg" />
+                            </figure> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block_sec">
+                <div class="block_cont time_block">
+                    <img src="images/time.svg" />
+                    <p>
+                        Save time with<br />
+                        automated trend signals
+                    </p>
+                </div>
+                <div class="block_cont strategy_block">
+                    <img src="images/strategy.svg" />
+                    <p>
+                        Backtested proven<br />
+                        strategies
+                    </p>
+                </div>
+                <div class="block_cont portfolio_block">
+                    <img src="images/capital_grow.svg" />
+                    <p>
+                        Conserve capital and<br />
+                        grow your portfolio
+                    </p>
+                </div>
+            </div>
+
+            <div class="under_line">
+                <hr />
+            </div>
+            <div class="plan_sec">
+                <h2>Select a subscription plan</h2>
+                <div class="plan_detail block_sec">
+                    <div class="block_cont yearly">
+                        <img src="images/calendar.svg" />
+                        <p class="sub_time">1-year subscription</p>
+                        <p class="sub_price"><sup>$</sup>129 <sub>/ year</sub></p>
+                        <a href="payment.html"><button class="btn plan_select">Select plan</button></a>
+                    </div>
+                    <div class="block_cont plan_include web">
+                        <img src="images/rocket.png" />
+                        <p class="sub_time">The subscriptions include:</p>
+                        <p>- Trend based buy and sell signals</p>
+                        <p>- Brower and email notifications</p>
+                        <p>- Freebie 1 lorem ipsum - worth $299</p>
+                        <p>- Freebie 2 lorem ipsum - worth $229</p>
+                        <p>- Freebie 3 lorem ipsum - worth $129</p>
+                    </div>
+                    <div class="block_cont lifetime">
+                        <img src="images/calendar2.svg" />
+                        <p class="sub_time">Lifetime subscription</p>
+                        <p class="sub_price"><sup>$</sup>249</p>
+                        <a href="payment.html"><button class="btn plan_select">Select plan</button></a>
+                    </div>
+                    <div class="block_cont plan_include mob">
+                        <img src="images/rocket.png" />
+                        <p class="sub_time">The subscriptions include:</p>
+                        <p>- Trend based buy and sell signals</p>
+                        <p>- Brower and email notifications</p>
+                        <p>- Freebie 1 lorem ipsum - worth $299</p>
+                        <p>- Freebie 2 lorem ipsum - worth $229</p>
+                        <p>- Freebie 3 lorem ipsum - worth $129</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="copy_right">
+                    <p>AccumulationApp © 2019</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade signin_modal" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="login_block">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="ModalLabel">SIGN IN TO YOUR ACCOUNT</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="signin_form" id="signin_form">
+                                <label>Email</label>
+                                <input type="email" class="email form_control" />
+                                <label>password<a class="forgot_pass">forgot password?</a></label>
+                                <input type="password" class="form_control" />
+                                <button type="submit" class="btn signin_btn plan_select submit"><a href="portfolio.html">sign in</a></button>
+                            </form>
+                            <p class="create_acnt">
+                                Don’t have an account? <span class="get_start"><a href="payment.html">Get started</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--script-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+        <!--end-->
+    </body>
+</html>
