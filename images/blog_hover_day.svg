@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.3 (101010) - https://sketch.com -->
+    <title>A4D5DD11-35F7-4727-930E-1F2990FEBAEC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M19,16.4023 L13,17.7503 L13,7.5973 L19,6.2503 L19,16.4023 Z M5,6.2503 L11,7.5973 L11,17.7503 L5,16.4023 L5,6.2503 Z M20.625,4.2183 C20.387,4.0293 20.077,3.9573 19.78,4.0243 L12,5.7723 L4.22,4.0243 C3.922,3.9563 3.613,4.0293 3.375,4.2183 C3.138,4.4093 3,4.6963 3,5.0003 L3,17.2023 C3,17.6703 3.324,18.0753 3.78,18.1773 L11.78,19.9753 C11.854,19.9923 11.927,20.0003 12,20.0003 C12.073,20.0003 12.146,19.9923 12.22,19.9753 L20.22,18.1773 C20.676,18.0753 21,17.6703 21,17.2023 L21,5.0003 C21,4.6963 20.862,4.4093 20.625,4.2183 L20.625,4.2183 Z" id="path-1"></path>
+    </defs>
+    <g id="Portfolio---MVP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accumulation---Portfolio---Desktop" transform="translate(0.000000, -134.000000)">
+            <g id="Group-5-Copy" transform="translate(0.000000, 134.000000)">
+                <rect id="Rectangle" fill="#ffffff" x="0" y="0" width="70" height="70"></rect>
+                <g id="book-open" transform="translate(23.000000, 23.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="🎨-Icon-Сolor" fill="#00D68F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+              <rect id="Rectangle" fill="#00D68F" x="0" y="2" width="4" height="65"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

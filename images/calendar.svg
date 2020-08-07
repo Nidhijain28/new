@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="78px" viewBox="0 0 80 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>05B648F3-B8D4-47DF-8741-3A4D70A0DD7F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-33.3%" y="-33.9%" width="166.7%" height="167.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.839215686   0 0 0 0 0.560784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Landing-/-Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accumulation---Landing---Desktop" transform="translate(-244.000000, -965.000000)" fill="#00D68F">
+            <g id="pictograms/calendar/calendar-02" filter="url(#filter-1)" transform="translate(254.000000, 974.000000)">
+                <path d="M1.49172414,57.3675484 L57.9310345,57.3675484 L57.9310345,6.50303226 L1.49172414,6.50303226 L1.49172414,57.3675484 Z M58.6758621,58.7610968 L0.744827586,58.7610968 C0.333103448,58.7610968 0,58.4494839 0,58.0643226 L0,5.80625806 C0,5.42109677 0.333103448,5.10948387 0.744827586,5.10948387 L58.6758621,5.10948387 C59.0896552,5.10948387 59.4227586,5.42109677 59.4227586,5.80625806 L59.4227586,58.0643226 C59.4227586,58.4494839 59.0896552,58.7610968 58.6758621,58.7610968 L58.6758621,58.7610968 Z M19.0062069,41 L19.0062069,39.298 L23.4912069,39.298 L23.4912069,26.372 L23.3302069,26.372 L19.2822069,30.144 L18.1552069,28.925 L22.4102069,24.946 L25.4232069,24.946 L25.4232069,39.298 L29.5632069,39.298 L29.5632069,41 Z M40.0167069,29.132 L41.8337069,29.132 L36.5207069,43.76 C36.3827062,44.1126684 36.2447076,44.4078321 36.1067069,44.6455 C35.9687062,44.8831679 35.8000412,45.0709993 35.6007069,45.209 C35.4013726,45.3470007 35.1522084,45.4466664 34.8532069,45.508 C34.5542054,45.5693336 34.1900424,45.6 33.7607069,45.6 L32.8177069,45.6 L32.8177069,43.99 L34.6807069,43.99 L35.5777069,41.46 L31.1387069,29.132 L32.9787069,29.132 L35.8307069,37.205 L36.3827069,39.137 L36.4977069,39.137 L37.1417069,37.205 Z M12.4117241,11.6127097 L13.9034483,11.6127097 L13.9034483,-0.000193548388 L12.4117241,-0.000193548388 L12.4117241,11.6127097 Z M45.5151724,11.6127097 L47.0068966,11.6127097 L47.0068966,-0.000193548388 L45.5151724,-0.000193548388 L45.5151724,11.6127097 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

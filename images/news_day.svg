@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.3 (101010) - https://sketch.com -->
+    <title>B182EDDF-BB1D-4E9B-BD89-9D2AC8FEF644</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M14.617,19.552 C15.666,18.054 16.757,15.851 16.975,13 L19.93,13 C19.547,16.052 17.441,18.57 14.617,19.552 L14.617,19.552 Z M4.069,13 L7.061,13 C7.267,15.862 8.344,18.056 9.407,19.561 C6.57,18.584 4.454,16.061 4.069,13 L4.069,13 Z M9.438,4.429 C8.386,5.927 7.285,8.137 7.065,11 L4.069,11 C4.455,7.928 6.586,5.397 9.438,4.429 L9.438,4.429 Z M9.079,11 C9.385,7.728 11.059,5.45 12.026,4.397 C13.026,5.468 14.674,7.725 14.959,11 L9.079,11 Z M9.08,13 L14.962,13 C14.656,16.277 12.978,18.555 12.012,19.608 C10.965,18.498 9.359,16.272 9.08,13 L9.08,13 Z M19.93,11 L16.978,11 C16.773,8.151 15.708,5.964 14.65,4.461 C17.458,5.451 19.549,7.96 19.93,11 L19.93,11 Z M22,12 C22,6.496 17.529,2.018 12.028,2.002 C12.024,2.002 12.02,2.001 12.015,2.001 C12.011,2.001 12.005,2 12,2 C6.486,2 2,6.487 2,12 C2,17.514 6.486,22 12,22 C12.006,22 12.011,21.999 12.015,21.999 C12.017,21.999 12.018,22 12.02,22 C12.023,22 12.026,21.998 12.028,21.998 C17.529,21.983 22,17.504 22,12 L22,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Portfolio---MVP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accumulation---Portfolio---Desktop" transform="translate(0.000000, -204.000000)">
+            <g id="Group-5-Copy-2" transform="translate(0.000000, 204.000000)">
+                <rect id="Rectangle" fill="#ffffff" x="0" y="0" width="70" height="70"></rect>
+                <g id="globe" transform="translate(23.000000, 23.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="🎨-Icon-Сolor" fill="#8F9BB3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                
+            </g>
+        </g>
+    </g>
+</svg>

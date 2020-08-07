@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="80px" viewBox="0 0 81 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>D1F5942D-6462-4995-BFE4-0390A907B962</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M288.8828,274.3234 L276.3508,251.6514 C276.2128,251.4034 275.9308,251.2554 275.6548,251.2834 C275.3688,251.3094 275.1268,251.5034 275.0368,251.7754 L265.2628,281.5154 L256.3268,267.6114 C256.1848,267.3914 255.9728,267.2634 255.6728,267.2814 C255.4108,267.2994 255.1788,267.4574 255.0688,267.6954 L242.4408,294.7534 L242.4408,237.9994 L241.0008,237.9994 L241.0008,297.9994 C241.0008,298.3974 241.3228,298.7194 241.7208,298.7194 L301.8008,298.7194 L301.8008,297.2814 L242.8508,297.2814 L255.8208,269.4874 L264.8688,283.5654 C265.0168,283.7974 265.2768,283.9294 265.5668,283.8894 C265.8408,283.8554 266.0728,283.6634 266.1588,283.4014 L275.8888,253.7934 L288.2388,276.1354 C288.3648,276.3634 288.6028,276.5054 288.8628,276.5074 C289.1408,276.5014 289.3628,276.3714 289.4928,276.1474 L302.3428,253.8874 L301.0968,253.1654 L288.8828,274.3234 Z" id="path-1"></path>
+        <filter x="-24.5%" y="-24.7%" width="148.9%" height="149.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.839215686   0 0 0 0 0.560784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-231.000000, -229.000000)" id="grow">
+            <g>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#00E096" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
